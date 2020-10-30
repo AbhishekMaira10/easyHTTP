@@ -43,3 +43,22 @@ easyHTTP.prototype.put = function (url, data, callback) {
   this.http.send(JSON.stringify(data));
 };
 // Make an HTTP DELETE Request
+
+
+
+
+
+
+
+
+// Http statuses
+// 200 - "ok"
+// 403 - "forbidden"
+// 404 - "Not Found"
+
+// readyState Values
+// 0: request not initialized
+// 1: server connection established
+// 2: request received
+// 3: processing request
+// 4: request finished and response is ready
